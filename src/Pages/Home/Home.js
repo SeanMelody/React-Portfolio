@@ -11,7 +11,7 @@ const Home = () => {
                 <section class="row">
                     <div class="col-md-4 about-me-photo">
 
-                        <img src="./images/About-Me-Profile.jpg" alt="Sean Melody Profile Photo" class="img-thumbnail"></img>
+                        <img src="./images/About-Me-Profile.jpg" alt="Sean Melody Profile" class="img-thumbnail"></img>
                     </div>
 
                     <div class="col-md-8">
