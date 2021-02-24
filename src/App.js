@@ -4,6 +4,7 @@ import Nav from "./Components/Nav/Nav"
 import Home from "./Pages/Home/Home"
 import Portfolio from "./Pages/Portfolio/Portfolio"
 import Contact from "./Pages/Contact/Contact"
+import Footer from './Components/Footer/Footer';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" component={Home} />
         </Switch>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }
