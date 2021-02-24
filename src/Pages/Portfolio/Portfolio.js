@@ -1,9 +1,10 @@
 import React from 'react'
+import Header from "../../Components/Header/Header"
 
-const Portfolio = () => {
+const Portfolio = (props) => {
     return (
         <div>
-            <h1>Portfolio</h1>
+            <Header title={"Portfolio"} />
         </div>
     )
 }

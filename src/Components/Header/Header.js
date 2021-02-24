@@ -4,7 +4,7 @@ const HeaderStyles = (props) => {
     return (
         <header>
             <h1>
-                {"About Me"}
+                {props.title}
             </h1>
             <hr></hr>
         </header>

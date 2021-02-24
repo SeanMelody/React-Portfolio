@@ -4,7 +4,7 @@ import Header from "../../Components/Header/Header"
 const Home = () => {
     return (
         <div>
-            <Header title={"Sean Melody"} />
+            <Header title={"About Me"} />
         </div>
     )
 }
