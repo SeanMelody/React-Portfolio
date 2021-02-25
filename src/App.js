@@ -1,3 +1,4 @@
+// Import all the goodness
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import './App.css';
 import Nav from "./Components/Nav/Nav"
@@ -7,6 +8,7 @@ import Contact from "./Pages/Contact/Contact"
 import Footer from './Components/Footer/Footer';
 import About from "./Pages/About/About"
 
+// Whole website displayed her, via React
 function App() {
   return (
     <div className="App">

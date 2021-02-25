@@ -1,13 +1,18 @@
+// Import all the goodness
 import React from 'react'
 import Header from "../../Components/Header/Header"
 import PortfolioSection from "../../Components/PortfolioSection/PortfolioSection"
 
+// Portfolio will use props to display each Portfolio Secion Component
 const Portfolio = () => {
     return (
         <div>
+            {/* HR line break for after the navbar */}
             <hr></hr>
             <Header title={"Portfolio"} />
+            {/* Container for all the components */}
             <div className="container">
+                {/* Row 1 of 3 */}
                 <div className="row portfolio-body">
                     <PortfolioSection
                         project={"Employee Database"}
@@ -29,6 +34,7 @@ const Portfolio = () => {
                     />
                 </div>
                 <br></br>
+                {/* Row 2 of 3 */}
                 <div className="row portfolio-body">
                     <PortfolioSection
                         project={"API Password Generator"}
@@ -50,6 +56,7 @@ const Portfolio = () => {
                     />
                 </div>
                 <br></br>
+                {/* Row 3 of 3 */}
                 <div className="row portfolio-body">
                     <PortfolioSection
                         project={"Day Scheduler"}

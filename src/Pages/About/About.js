@@ -1,14 +1,19 @@
+// import all the Goodness
 import React from 'react'
 import Header from "../../Components/Header/Header"
 
+// About page for my description
 const About = () => {
     return (
         <div>
+            {/* Hr for a line break after the navbar */}
             <hr></hr>
+            {/* Header used to dispaly title */}
             <Header title={"About Me"} />
             <main className="container shadow-lg p-3 mb-5 rounded main">
                 <div className="row">
                 </div>
+                {/* Row for the image and text content*/}
                 <section className="row">
                     <div className="col-md-4 about-me-photo">
 

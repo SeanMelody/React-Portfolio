@@ -1,7 +1,9 @@
+// import all the Goodness
 import React from 'react'
 import { Link } from "react-router-dom"; //Lets you link pages
 import styles from "./NavStyles"
 
+// Nav bar will display on each page, using link to switch out contents
 function Nav() {
     return (
         <nav style={styles.navStyles}>

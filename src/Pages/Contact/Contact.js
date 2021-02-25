@@ -1,12 +1,17 @@
+// import all the Goodness
 import React from 'react'
 import Header from "../../Components/Header/Header"
 
+// Contact Page to display links and how to contact me
 const Contact = () => {
     return (
         <div>
+            {/* Hr for a line break after the nav bar*/}
             <hr></hr>
             <Header title={"Contact Me"} />
 
+
+            {/* Each div will dispaly the photo, and the link */}
             <main className="container social-media-img shadow-lg p-3 mb-5 rounded main">
                 <div className="row">
                     <div className="col-md-12 text-center">
