@@ -48,6 +48,28 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-4 text-center">
+
+                        <a href="./images/Sean-Melody-Resume.pdf" target="_blank" download="Sean Melody Resume"
+                            alt="Resume">
+                            <img src="./images/Resume.png" alt="Resume" class="img-thumbnail"></img>
+                        </a>
+                        <div class="row">
+                            <div class="col-md-12 social-media-link">
+                                <a href="./images/Sean-Melody-Resume.pdf" target="_blank" download="Sean Melody Resume"
+                                    alt="Resume">
+                                    <h4>Resume</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+
 
                 </div>
             </main>
