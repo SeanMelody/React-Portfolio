@@ -6,7 +6,7 @@ module.exports = {
         backgroundPosition: "center",
     },
 
-    Enter: {
-        display: "flex",
-    }
+    // Enter: {
+    //     display: "flex",
+    // }
 }
