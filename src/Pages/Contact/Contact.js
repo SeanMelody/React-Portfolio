@@ -31,7 +31,23 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-4 text-center">
 
+                        <a href="https://www.linkedin.com/in/sean-melody-0b3188bb/" alt="LinkedIn Profile"
+                            target="_blank" rel="noreferrer">
+                            <img src="./images/LinkedIn.png" alt="LinkedIn Profile" class="img-thumbnail"></img>
+                        </a>
+
+
+                        <div class="row">
+                            <div class="col-md-12 social-media-link">
+                                <a href="https://www.linkedin.com/in/sean-melody/" alt="LinkedIn Profile"
+                                    target="_blank" rel="noreferrer">
+                                    <h4>LinkedIn</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
                 </div>
             </main>
