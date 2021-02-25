@@ -5,16 +5,16 @@ const Home = () => {
     return (
         <div>
             <Header title={"About Me"} />
-            <main class="container shadow-lg p-3 mb-5 rounded main">
-                <div class="row">
+            <main className="container shadow-lg p-3 mb-5 rounded main">
+                <div className="row">
                 </div>
-                <section class="row">
-                    <div class="col-md-4 about-me-photo">
+                <section className="row">
+                    <div className="col-md-4 about-me-photo">
 
-                        <img src="./images/About-Me-Profile.jpg" alt="Sean Melody Profile" class="img-thumbnail"></img>
+                        <img src="./images/About-Me-Profile.jpg" alt="Sean Melody Profile" className="img-thumbnail"></img>
                     </div>
 
-                    <div class="col-md-8">
+                    <div className="col-md-8">
                         <p>Hi! My name is Sean Melody, and I am learning to be a full stack web developer. I have a Bachelor's
                         degree in Photography and a Minor in Art History. I am a UC Berkeley extension educated
                         MERN developer with an extensive knowledge in HTML, CSS, JavaScript, jQuery, Node, Express, mySql,
@@ -35,7 +35,7 @@ const Home = () => {
                                 </p>
                         <p>
 
-                            If you would like to contact me, please check out my <a href="./contact.html">Contact Page</a>.
+                            If you would like to contact me, please check out my Contact Page.
                                 </p>
                     </div>
                 </section>

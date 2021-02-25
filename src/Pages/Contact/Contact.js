@@ -6,9 +6,9 @@ const Contact = () => {
         <div>
             <Header title={"Contact Me"} />
 
-            <main class="container social-media-img shadow-lg p-3 mb-5 rounded main">
-                <div class="row">
-                    <div class="col-md-12 text-center">
+            <main className="container social-media-img shadow-lg p-3 mb-5 rounded main">
+                <div className="row">
+                    <div className="col-md-12 text-center">
 
                         <h4>(707)548-6725</h4>
                         <h4>sean.d.melody@gmail.com</h4>
@@ -16,31 +16,31 @@ const Contact = () => {
                     </div>
                 </div>
 
-                <div class="row">
+                <div className="row">
 
-                    <div class="col-md-4 text-center">
+                    <div className="col-md-4 text-center">
 
                         <a href="https://github.com/SeanMelody" alt="GitHub Profile" target="_blank" rel="noreferrer">
-                            <img src="./images/GitHub.png" alt="Github Profile" class="img-thumbnail"></img>
+                            <img src="./images/GitHub.png" alt="Github Profile" className="img-thumbnail"></img>
                         </a>
-                        <div class="row">
-                            <div class="col-md-12 social-media-link">
+                        <div className="row">
+                            <div className="col-md-12 social-media-link">
                                 <a href="https://github.com/SeanMelody" alt="GitHub Profile" target="_blank" rel="noreferrer">
                                     <h4>GitHub</h4>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 text-center">
+                    <div className="col-md-4 text-center">
 
                         <a href="https://www.linkedin.com/in/sean-melody-0b3188bb/" alt="LinkedIn Profile"
                             target="_blank" rel="noreferrer">
-                            <img src="./images/LinkedIn.png" alt="LinkedIn Profile" class="img-thumbnail"></img>
+                            <img src="./images/LinkedIn.png" alt="LinkedIn Profile" className="img-thumbnail"></img>
                         </a>
 
 
-                        <div class="row">
-                            <div class="col-md-12 social-media-link">
+                        <div className="row">
+                            <div className="col-md-12 social-media-link">
                                 <a href="https://www.linkedin.com/in/sean-melody/" alt="LinkedIn Profile"
                                     target="_blank" rel="noreferrer">
                                     <h4>LinkedIn</h4>
@@ -48,14 +48,14 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4 text-center">
+                    <div className="col-md-4 text-center">
 
                         <a href="./images/Sean-Melody-Resume.pdf" target="_blank" download="Sean Melody Resume"
                             alt="Resume">
-                            <img src="./images/Resume.png" alt="Resume" class="img-thumbnail"></img>
+                            <img src="./images/Resume.png" alt="Resume" className="img-thumbnail"></img>
                         </a>
-                        <div class="row">
-                            <div class="col-md-12 social-media-link">
+                        <div className="row">
+                            <div className="col-md-12 social-media-link">
                                 <a href="./images/Sean-Melody-Resume.pdf" target="_blank" download="Sean Melody Resume"
                                     alt="Resume">
                                     <h4>Resume</h4>
@@ -64,24 +64,24 @@ const Contact = () => {
                         </div>
                     </div>
                 </div>
-
-                <div class="row">
-                    <div class="col-md-12 text-center">
+                <br></br>
+                <div className="row">
+                    <div className="col-md-12 text-center">
 
                         <h2>Social Media</h2>
                         <hr></hr>
                     </div>
                 </div>
 
-                <div class="row">
+                <div className="row">
 
-                    <div class="col-md-4 text-center">
+                    <div className="col-md-4 text-center">
 
                         <a href="https://www.instagram.com/seandze/" alt="Instagram" target="_blank" rel="noreferrer">
-                            <img src="./images/Instagram-Profile.jpg" alt="Instagram Profile" class="img-thumbnail"></img>
+                            <img src="./images/Instagram-Profile.jpg" alt="Instagram Profile" className="img-thumbnail"></img>
                         </a>
-                        <div class="row">
-                            <div class="col-md-12 social-media-link">
+                        <div className="row">
+                            <div className="col-md-12 social-media-link">
                                 <a href="https://www.instagram.com/seandze/" alt="Instagram" target="_blank" rel="noreferrer">
                                     <h4>Instagram</h4>
                                 </a>
@@ -89,13 +89,13 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div class="col-md-4 text-center">
+                    <div className="col-md-4 text-center">
 
                         <a href="https://www.facebook.com/sean.dz.5/" alt="Facebook" target="_blank" rel="noreferrer">
-                            <img src="./images/Facebook-Profile.jpg" alt="Facebook Profile" class="img-thumbnail"></img>
+                            <img src="./images/Facebook-Profile.jpg" alt="Facebook Profile" className="img-thumbnail"></img>
                         </a>
-                        <div class="row">
-                            <div class="col-md-12 social-media-link">
+                        <div className="row">
+                            <div className="col-md-12 social-media-link">
                                 <a href="https://www.facebook.com/sean.dz.5/" alt="Facebook" target="_blank" rel="noreferrer">
                                     <h4>Facebook</h4>
                                 </a>
@@ -103,13 +103,13 @@ const Contact = () => {
                         </div>
                     </div>
 
-                    <div class="col-md-4 text-center">
+                    <div className="col-md-4 text-center">
 
                         <a href="https://twitter.com/drdze " alt="Twitter" target="_blank" rel="noreferrer">
-                            <img src="./images/Twitter-Profile.jpg" alt="Twitter Profile" class="img-thumbnail"></img>
+                            <img src="./images/Twitter-Profile.jpg" alt="Twitter Profile" className="img-thumbnail"></img>
                         </a>
-                        <div class="row">
-                            <div class="col-md-12 social-media-link">
+                        <div className="row">
+                            <div className="col-md-12 social-media-link">
                                 <a href="https://twitter.com/drdze " alt="Twitter" target="_blank" rel="noreferrer">
                                     <h4>Twitter</h4>
                                 </a>
