@@ -92,7 +92,7 @@ const Contact = () => {
                     <div class="col-md-4 text-center">
 
                         <a href="https://www.facebook.com/sean.dz.5/" alt="Facebook" target="_blank" rel="noreferrer">
-                            <img src="./assets/images/Facebook-Profile.jpg" alt="Facebook Profile" class="img-thumbnail"></img>
+                            <img src="./images/Facebook-Profile.jpg" alt="Facebook Profile" class="img-thumbnail"></img>
                         </a>
                         <div class="row">
                             <div class="col-md-12 social-media-link">
@@ -103,6 +103,19 @@ const Contact = () => {
                         </div>
                     </div>
 
+                    <div class="col-md-4 text-center">
+
+                        <a href="https://twitter.com/drdze " alt="Twitter" target="_blank" rel="noreferrer">
+                            <img src="./images/Twitter-Profile.jpg" alt="Twitter Profile Photo" class="img-thumbnail"></img>
+                        </a>
+                        <div class="row">
+                            <div class="col-md-12 social-media-link">
+                                <a href="https://twitter.com/drdze " alt="Twitter" target="_blank" rel="noreferrer">
+                                    <h4>Twitter</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
 
                 </div>
