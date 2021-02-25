@@ -10,7 +10,7 @@ const Contact = () => {
                 <div class="row">
                     <div class="col-md-12 text-center">
 
-                        <h2>Contact Me</h2>
+                        <h4>(707)548-6725</h4>
                         <h4>sean.d.melody@gmail.com</h4>
 
                     </div>
@@ -106,7 +106,7 @@ const Contact = () => {
                     <div class="col-md-4 text-center">
 
                         <a href="https://twitter.com/drdze " alt="Twitter" target="_blank" rel="noreferrer">
-                            <img src="./images/Twitter-Profile.jpg" alt="Twitter Profile Photo" class="img-thumbnail"></img>
+                            <img src="./images/Twitter-Profile.jpg" alt="Twitter Profile" class="img-thumbnail"></img>
                         </a>
                         <div class="row">
                             <div class="col-md-12 social-media-link">
