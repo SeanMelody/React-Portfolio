@@ -6,7 +6,7 @@ const HeaderStyles = (props) => {
             <h1>
                 {props.title}
             </h1>
-            <hr></hr>
+            <br></br>
         </header>
     )
 }

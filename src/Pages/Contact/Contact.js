@@ -4,6 +4,7 @@ import Header from "../../Components/Header/Header"
 const Contact = () => {
     return (
         <div>
+            <hr></hr>
             <Header title={"Contact Me"} />
 
             <main className="container social-media-img shadow-lg p-3 mb-5 rounded main">

@@ -5,6 +5,7 @@ import PortfolioSection from "../../Components/PortfolioSection/PortfolioSection
 const Portfolio = () => {
     return (
         <div>
+            <hr></hr>
             <Header title={"Portfolio"} />
             <div className="container">
                 <div className="row portfolio-body">

@@ -4,6 +4,7 @@ import Header from "../../Components/Header/Header"
 const About = () => {
     return (
         <div>
+            <hr></hr>
             <Header title={"About Me"} />
             <main className="container shadow-lg p-3 mb-5 rounded main">
                 <div className="row">
