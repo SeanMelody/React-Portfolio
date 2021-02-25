@@ -63,9 +63,30 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
+                </div>
 
+                <div class="row">
+                    <div class="col-md-12 text-center">
 
+                        <h2>Social Media</h2>
+                    </div>
+                </div>
 
+                <div class="row">
+
+                    <div class="col-md-4 text-center">
+
+                        <a href="https://www.instagram.com/seandze/" alt="Instagram" target="_blank" rel="noreferrer">
+                            <img src="./images/Instagram-Profile.jpg" alt="Instagram Profile" class="img-thumbnail"></img>
+                        </a>
+                        <div class="row">
+                            <div class="col-md-12 social-media-link">
+                                <a href="https://www.instagram.com/seandze/" alt="Instagram" target="_blank" rel="noreferrer">
+                                    <h4>Instagram</h4>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
 
 
 
