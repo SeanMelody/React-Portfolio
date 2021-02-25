@@ -12,6 +12,13 @@ const PortfolioSection = (props) => {
                     </a>
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-12 social-media-link">
+                    <a href={props.github} alt="github" target="_blank" rel="noreferrer">
+                        <h4>GitHub Link</h4>
+                    </a>
+                </div>
+            </div>
         </div>
 
     )
