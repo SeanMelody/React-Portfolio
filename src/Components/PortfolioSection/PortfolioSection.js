@@ -5,7 +5,7 @@ import PortfolioSectionStyles from './PortfolioSectionStyles'
 // bring in props to display all the content
 const PortfolioSection = (props) => {
     return (
-        // Each div will dispaly the photo, and the project title and github link via props
+        // Each div will display the photo, and the project title and github link via props
         <div style={PortfolioSectionStyles.Padding} className="col-md-4 portfolio-img text-center">
             <a href={props.link} target="_blank" rel="noreferrer">
                 <img src={props.photo} alt={props.project} className="img-thumbnail"></img>

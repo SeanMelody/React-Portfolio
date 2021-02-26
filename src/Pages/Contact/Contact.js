@@ -40,7 +40,7 @@ const Contact = () => {
                     </div>
                     <div style={ContactStyles.Padding} className="col-md-4 text-center">
 
-                        <a href="https://www.linkedin.com/in/sean-melody-0b3188bb/" alt="LinkedIn Profile"
+                        <a href="https://www.linkedin.com/in/sean-melody/" alt="LinkedIn Profile"
                             target="_blank" rel="noreferrer">
                             <img src="./images/LinkedIn.png" alt="LinkedIn Profile" className="img-thumbnail"></img>
                         </a>

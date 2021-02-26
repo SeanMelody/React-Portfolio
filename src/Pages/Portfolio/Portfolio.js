@@ -16,7 +16,7 @@ const Portfolio = () => {
                 {/* Row 1 of 3 */}
                 <div className="row portfolio-body">
                     <PortfolioSection
-                        project={"Employee Database"}
+                        project={"Employee Directory"}
                         photo={"./images/Employee-Directory.png"}
                         link={"https://secret-escarpment-97413.herokuapp.com/"}
                         github={"https://github.com/SeanMelody/Directory"}
