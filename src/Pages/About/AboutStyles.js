@@ -1,5 +1,9 @@
 module.exports = {
 
+    Link: {
+        textDecoration: "none",
+    },
+
     Kitten: {
         padding: "5px",
     },

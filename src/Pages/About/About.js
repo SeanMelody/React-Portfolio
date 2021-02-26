@@ -25,8 +25,8 @@ const About = () => {
                     <div className="col-md-8">
                         <p style={AboutStyles.Paragraph}>Hi! My name is Sean Melody, full stack web developer. I am a UC Berkeley extension educated MERN developer
                         with an extensive knowledge in JavaScript, React, MongoDB, Mongoose, MySQl, Sequelize, Node, Express, Jquery, Handlebars, Bootstrap, HTML and CSS
-                        and love CRUD functionality. I also have a Bachelor's degree in Photography and a Minor in Art History. Check out my photography website
-                        <a href="http://www.seanmelody.com" alt="seanMelody.com" target="_blank" rel="noreferrer"> here</a>.
+                        and love CRUD functionality. I also have a Bachelor's degree in Photography and a Minor in Art History. Check out my
+                        <a style={AboutStyles.Link} href="http://www.seanmelody.com" alt="seanMelody.com" target="_blank" rel="noreferrer"> photography website</a>.
                                 </p>
                         <p style={AboutStyles.Paragraph}>
                             I enjoy creating, designing and helping to bring ideas and visions to life on both the front and
@@ -34,7 +34,8 @@ const About = () => {
                             oriented. I consider myself a master of deadlines and crave the excitement of solving complex problems and learning new ways to do so.
                             Team-oriented, company loyal and always happy to help anywhere it is needed as well as having the
                             confidence to attack problems solo. Passionate about all things, but a few personal favorites are
-                            the San Francisco Giants, traveling and my cat.
+                            the San Francisco Giants, traveling and my cat. I also wrote a Medium article about my love for Linear & Radial Gradients, that you
+                            can read <a style={AboutStyles.Link} href="https://medium.com/@seandmelody/fun-with-linear-radial-gradients-bfcc47cade71">here</a>.
                                 </p>
                         <p style={AboutStyles.Paragraph}>
 
