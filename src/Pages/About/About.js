@@ -42,7 +42,7 @@ const About = () => {
                                 </p>
                     </div>
                 </section>
-
+                {/* Section of photos of my adorable kitten */}
                 <section style={AboutStyles.KittenContainer}>
                     <div className="row container" style={AboutStyles.Kitten}>
                         <Kitten image={"./images/Arya1.jpg"} alt={"Arya1"} />
