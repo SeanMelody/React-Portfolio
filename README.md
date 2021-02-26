@@ -1,6 +1,6 @@
 # React-Portfolio!
 
-https://seanmelody.herokuapp.com/portfolio
+https://seanmelody.herokuapp.com/
 
 
 ## Description
