@@ -1,5 +1,6 @@
 // Import all the goodness
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
+//App pages styling
 import './App.css';
 import Nav from "./Components/Nav/Nav"
 import Home from "./Pages/Home/Home"

@@ -1,11 +1,12 @@
 // import all the Goodness
 import React from 'react'
 import Header from "../../Components/Header/Header"
+import AboutStyles from "./AboutStyles"
 
 // About page for my description
 const About = () => {
     return (
-        <div>
+        <div style={AboutStyles.BodyStyle}>
             {/* Hr for a line break after the navbar */}
             <hr></hr>
             {/* Header used to dispaly title */}
@@ -21,12 +22,12 @@ const About = () => {
                     </div>
 
                     <div className="col-md-8">
-                        <p>Hi! My name is Sean Melody, and I am learning to be a full stack web developer. I have a Bachelor's
+                        <p style={AboutStyles.Paragraph}>Hi! My name is Sean Melody, and I am learning to be a full stack web developer. I have a Bachelor's
                         degree in Photography and a Minor in Art History. I am a UC Berkeley extension educated
                         MERN developer with an extensive knowledge in HTML, CSS, JavaScript, jQuery, Node, Express, mySql,
                         Sequelize, Handlebars, and CRUD functionality with many more still to come.
                                 </p>
-                        <p>
+                        <p style={AboutStyles.Paragraph}>
                             I enjoy creating, designing and helping to bring ideas and visions to life on both the front and
                             back end of webpages.
                             Forever optimistic, with a strong work ethic, love problem solving/debugging and am very detail
@@ -39,7 +40,7 @@ const About = () => {
                             the San Francisco Giants, traveling and my cat.
 
                                 </p>
-                        <p>
+                        <p style={AboutStyles.Paragraph}>
 
                             If you would like to contact me, please check out my Contact Page.
                                 </p>

@@ -1,12 +1,13 @@
 // import all the Goodness
 import React from 'react'
+import HeaderStyles from "./HeaderStyles"
 
 // Header is below the nav bar displaying on every page
-const HeaderStyles = (props) => {
+const Header = (props) => {
     return (
         <header>
             {/* Use props to display the title of each page */}
-            <h1>
+            <h1 style={HeaderStyles.HeaderStyles}>
                 {props.title}
             </h1>
             {/* Add a break for a little bit of space */}
@@ -15,4 +16,4 @@ const HeaderStyles = (props) => {
     )
 }
 
-export default HeaderStyles
+export default Header

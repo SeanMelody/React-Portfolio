@@ -1,6 +1,7 @@
 // Import all the goodness
 import React from 'react'
 import Header from "../../Components/Header/Header"
+//Each section is one project
 import PortfolioSection from "../../Components/PortfolioSection/PortfolioSection"
 
 // Portfolio will use props to display each Portfolio Secion Component

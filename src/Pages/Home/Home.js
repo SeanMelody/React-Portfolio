@@ -9,10 +9,13 @@ const Home = () => {
             {/* Background image gif */}
             <div className="background-Image" style={HomeStyles.GifStyles}>
                 {/* Welcome card contents */}
-                <div className="container Enter col-md-4">
-                    <h3 className="card-title">Hi!</h3>
-                    <h4 className="card-title">I'm Sean Melody</h4>
-                    <h6 className="card-subtitle mb-2 text-muted">Full-stack Web Developer Extraordinaire</h6>
+                <div style={HomeStyles.Enter} >
+                    <div style={HomeStyles.Rounded} className="container Enter col-md-4 rounded">
+                        <h3 className="card-title">Hi!</h3>
+                        <h4 className="card-title">I'm Sean Melody</h4>
+                        <h5 className="card-body mb-2">Full-stack Web Developer Extraordinaire</h5>
+                        <h6 className="card-subtitle">Please use the navbar to explore</h6>
+                    </div>
                 </div>
             </div>
         </div>
