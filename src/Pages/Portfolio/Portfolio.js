@@ -73,7 +73,7 @@ const Portfolio = () => {
                     />
                     <PortfolioSection
                         project={"Selfies With Arya"}
-                        photo={"./images/Selfies-With-Arya.png"}
+                        photo={"./images/Selfies-with-Arya.png"}
                         link={"https://seanmelody.github.io/Arya/"}
                         github={"https://github.com/SeanMelody/Arya"}
                     />
