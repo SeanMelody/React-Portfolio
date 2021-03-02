@@ -4,8 +4,12 @@
 }
 .background-Image {
  background-image: url("./Binary-Film1.gif");
- width: 100%;
- height: 800px;
+ height: 100%;
+ width: 0;
+ position: fixed;
+ z-index: 1;
+ top: 0;
+ left: 0;
  background-repeat: no-repeat;
 background-size: cover;
 

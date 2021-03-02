@@ -1,6 +1,7 @@
 // Import all the goodness
 import React from 'react'
 import HomeStyles from "./HomeStyles"
+import { Link } from "react-router-dom";
 
 // Home is the welcome page, displaying the Binary-Film gif
 const Home = () => {
@@ -13,8 +14,10 @@ const Home = () => {
                     <div style={HomeStyles.Rounded} className="container Enter col-md-4 rounded">
                         <h3 className="card-title">Hi!</h3>
                         <h4 className="card-title">I'm Sean Melody</h4>
-                        <h5 className="card-body mb-2">Full-stack Web Developer Extraordinaire</h5>
-                        <h6 className="card-subtitle">Please use the navbar to explore</h6>
+                        <h5 className="card-body mb-2 text-muted">Full-stack MERN Developer Extraordinaire</h5>
+                        <Link className="btn btn-lg btn-outline-dark" to="/about">
+                            Enter
+                        </Link>
                     </div>
                 </div>
             </div>

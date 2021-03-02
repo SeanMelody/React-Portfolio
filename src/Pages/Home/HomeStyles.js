@@ -5,6 +5,7 @@ module.exports = {
         height: "1300px",
         margin: "0",
         backgroundPosition: "center",
+        position: "absolute"
     },
 
     Enter: {

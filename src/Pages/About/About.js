@@ -3,6 +3,7 @@ import React from 'react'
 import Header from "../../Components/Header/Header"
 import Kitten from '../../Components/Kitten/Kitten'
 import AboutStyles from "./AboutStyles"
+import { Link } from "react-router-dom";
 
 // About page for my description
 const About = () => {
@@ -39,8 +40,9 @@ const About = () => {
                                 </p>
                         <p style={AboutStyles.Paragraph}>
 
-                            If you would like to contact me, please check out my Contact Page.
-                                </p>
+                            If you would like to contact me, please check out
+                            my <Link to="/contact"> Contact Page. </Link>
+                        </p>
                     </div>
                 </section>
                 {/* Section of photos of my adorable kitten */}
