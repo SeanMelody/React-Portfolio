@@ -1,7 +1,7 @@
 module.exports = {
     navStyles: {
         height: "10vh", //ViewHeight
-        minHeight: "50px",
+        // minHeight: "50px",
         display: "flex", //Sets items in line
         alignItems: "center",
         justifyContent: "space-around", //Puts some spaces between the words in the navbar
