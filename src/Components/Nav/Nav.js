@@ -7,9 +7,9 @@ import styles from "./NavStyles"
 // Nav bar will display on each page, using link to switch out contents
 function Nav() {
     return (
-        <nav style={styles.navStyles}>
+        <nav className="nav navbar-expand-md navbar-nav navbar-toggler" style={styles.navStyles}>
             <Link to="/" style={styles.linkStyles}>
-                <p style={styles.Title}>Sean Melody</p>
+                <p className="navbar-brand" style={styles.Title}>Sean Melody</p>
             </Link>
             <Link to="/about" style={styles.linkStyles}>
                 <p>About</p>

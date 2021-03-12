@@ -17,7 +17,7 @@ const Contact = () => {
                 <div className="row">
                     <div className="col-md-12 text-center">
 
-                        <h4>(707)548-6725</h4>
+                        {/* <h4>Phone Number Here</h4> */}
                         <h4>sean.d.melody@gmail.com</h4>
                         <br></br>
                     </div>
